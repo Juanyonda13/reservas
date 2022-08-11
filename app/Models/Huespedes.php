@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Huespedes extends Model
 {
     use HasFactory;
+    public function scopeBuscarpora(){
+        $this->join('');
+    }
 }

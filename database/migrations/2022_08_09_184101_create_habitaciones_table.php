@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('max_personas')->length(12,2);
             $table->integer('tiene_cama_bebe')->length(12);
             $table->integer('tiene_ducha')->length(12);
-            $table->integer('tiene_baño')->length(12);
+            $table->integer('tiene_bano')->length(12);
             $table->integer('tiene_balcon')->length(12);
             $table->timestamps();
         });
